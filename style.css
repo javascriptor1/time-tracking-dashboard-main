@@ -143,20 +143,18 @@ body {
 
 /*  --------------- media quires ---------------  */
 
-@media (min-width: 768px) and (max-width:1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
   .period-div {
     justify-content: space-around;
   }
   .header {
     width: 90%;
     margin: 32px auto;
-    
   }
   .card {
     width: 60%;
     margin: 32px auto;
-    
-}
+  }
 }
 @media (min-width: 1280px) {
   .container {
@@ -208,5 +206,3 @@ body {
     margin-top: -8px;
   }
 }
-
-/* troubleshooting css  */
