@@ -1,78 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
-  <title>Frontend Mentor | Time tracking dashboard</title>
-
-</head>
-<body>
-
-  <div class="container">
-    <header class="header">
-      <div class="user-div">
-        <img src="images/image-jeremy.png" alt="Jeremy">
-        <div class="user-div__name-div">
-          <p>Report for</p>
-          <p>Jeremy Robson</p>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="user-div">
+          <img src="images/image-jeremy.png" alt="Jeremy" />
+          <div class="user-div__name-div">
+            <p>Report for</p>
+            <p>Jeremy Robson</p>
+          </div>
         </div>
-      </div>
-      <div class="period-div">
-        <button>Daily</button>
-        <button>Weekly</button>
-        <button>Monthly</button>
-      </div>
-    </header>
-    <main>
-      Work
-      5hrs <!-- daily -->
-      Previous - 7hrs <!-- daily -->
-      32hrs <!-- weekly -->
-      Previous - 36hrs <!-- weekly -->
-      103hrs <!-- monthly -->
-      Previous - 128hrs <!-- monthly -->
-      Play
-      1hr <!-- daily -->
-      Previous - 2hrs <!-- daily -->
-      10hrs <!-- weekly -->
-      Previous - 8hrs <!-- weekly -->
-      23hrs <!-- monthly -->
-      Previous - 29hrs <!-- monthly -->
-      Study
-      0hrs <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      4hrs <!-- weekly -->
-      Previous - 7hrs <!-- weekly -->
-      13hrs <!-- monthly -->
-      Previous - 19hrs <!-- monthly -->
-      Exercise
-      1hr <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      4hrs <!-- weekly -->
-      Previous - 5hrs <!-- weekly -->
-      11hrs <!-- monthly -->
-      Previous - 18hrs <!-- monthly -->
-      Social
-      1hr <!-- daily -->
-      Previous - 3hrs <!-- daily -->
-      5hrs <!-- weekly -->
-      Previous - 10hrs <!-- weekly -->
-      21hrs <!-- monthly -->
-      Previous - 23hrs <!-- monthly -->
-      Self Care
-      0hrs <!-- daily -->
-      Previous - 1hr <!-- daily -->
-      2hrs <!-- weekly -->
-      Previous - 2hrs <!-- weekly -->
-      7hrs <!-- monthly -->
-      Previous - 11hrs <!-- monthly -->
-    </main>
-  </div>
+        <div class="period-div">
+          <button type="button">Daily</button>
+          <button type="button">Weekly</button>
+          <button type="button">Monthly</button>
+        </div>
+      </header>
+      <main>
+        <div class="work">
+          <div class="img-wrapper-div">
+            <img src="images/icon-work.svg" alt="work icon" />
+          </div>
+          <div class="data-div">
+            <p>Work</p>
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <p>32hrs</p>
+            <p>Last Week - 36hrs</p>
+          </div>
+        </div>
 
- 
-</body>
+        <code>
+          <div class="play">
+            Play 1hr
+            <!-- daily -->
+            Last Week - 2hrs
+            <!-- daily -->
+            10hrs
+            <!-- weekly -->
+            Last Week - 8hrs
+            <!-- weekly -->
+            23hrs
+            <!-- monthly -->
+            Last Week - 29hrs
+            <!-- monthly -->
+          </div>
+          <div class="study">
+            Study 0hrs
+            <!-- daily -->
+            Last Week - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Last Week - 7hrs
+            <!-- weekly -->
+            13hrs
+            <!-- monthly -->
+            Last Week - 19hrs
+            <!-- monthly -->
+          </div>
+          <div class="exercise">
+            Exercise 1hr
+            <!-- daily -->
+            Last Week - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Last Week - 5hrs
+            <!-- weekly -->
+            11hrs
+            <!-- monthly -->
+            Last Week - 18hrs
+            <!-- monthly -->
+          </div>
+          <div class="social">
+            Social 1hr
+            <!-- daily -->
+            Last Week - 3hrs
+            <!-- daily -->
+            5hrs
+            <!-- weekly -->
+            Last Week - 10hrs
+            <!-- weekly -->
+            21hrs
+            <!-- monthly -->
+            Last Week - 23hrs
+            <!-- monthly -->
+          </div>
+          <div class="self-care">
+            Self Care 0hrs
+            <!-- daily -->
+            Last Week - 1hr
+            <!-- daily -->
+            2hrs
+            <!-- weekly -->
+            Last Week - 2hrs
+            <!-- weekly -->
+            7hrs
+            <!-- monthly -->
+            Last Week - 11hrs
+            <!-- monthly -->
+          </div>
+        </code>
+      </main>
+    </div>
+  </body>
 </html>

@@ -1,61 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    font-family: 'Rubik', sans-serif;
-    background-color: hsl(226, 43%, 10%);
-    color: hsl(236, 100%, 87%);
-    padding: 24px;
-
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  color: hsl(236, 100%, 87%);
+  padding: 24px;
 }
 .container {
-    margin: 58px auto 0;
+  margin: 58px auto 0;
 }
 .header {
-    background-color: hsl(235, 46%, 20%);
-    border-radius: 12px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 14px;
 }
-.user-div{
-    background-color: hsl(246, 80%, 60%);
-    border-radius: 12px;
-    padding: 30px ;
-    display: flex;
-    gap: 1rem;
+.user-div {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 14px;
+  padding: 30px;
+  display: flex;
+  gap: 1rem;
 }
-.user-div img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+.user-div img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
 }
 .user-div__name-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.user-div__name-div p:nth-child(1){
-    font-size: 15px;
+.user-div__name-div p:nth-child(1) {
+  font-size: 15px;
 }
-.user-div__name-div p:nth-child(2){
-    font-size: 24px;
+.user-div__name-div p:nth-child(2) {
+  font-size: 24px;
+  color: #f4f3fd;
+  font-weight: 300;
 }
 .period-div {
-    padding: 16px;  
+  display: flex;
+  padding: 28px 32px;
+  justify-content: space-between;
 }
 
-.period-div button{
-    appearance: none;
-    border: none;
-    background-color: transparent;
-    color: hsl(235, 45%, 61%);
-
+.period-div button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  color: hsl(235, 45%, 61%);
+  font-size: 16px;
+  font-weight: bold;
 }
 
-main {
-    display: none;
+.work {
+  background-color: hsl(15, 100%, 70%);
+  padding-top: 38px;
+  border-radius: 16px;
+  margin-top: 22px;
+  position: relative;
+  overflow: hidden;
+}
+.data-div {
+  background-color: hsl(235, 46%, 20%);
+  color: hsl(236, 100%, 87%);
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, auto);
+  border-radius: 12px;
+  padding: 30px 22px;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 2px;
+  position: relative;
+  z-index: 2;
+  border: 1px solid #1c1f4a;
+}
+.data-div p:nth-of-type(1) {
+  font-size: 18px;
+  color: #f4f3fd;
+}
+.data-div p:nth-of-type(2) {
+  font-size: 32px;
+  color: #f4f3fd;
+}
+.data-div p:nth-of-type(3) {
+  font-size: 15px;
+}
+.data-div svg {
+  justify-self: end;
+  cursor: pointer;
+}
+.work img:first-child {
+  position: absolute;
+  top: -10px;
+  right: 18px;
+  z-index: 1;
+}
+
+/* ---------------- Active state --------------- */
+
+.data-div:hover {
+  background-color: #34397b;
+}
+
+.data-div svg:hover path {
+  fill: #f4f3fd;
+}
+
+/*  --------------- media quires ---------------  */
+
+@media (min-width: 768px) {
+  .period-div {
+    justify-content: space-around;
+  }
+}
+
+/* troubleshooting css  */
+
+code {
+  display: none;
 }
