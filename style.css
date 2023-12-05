@@ -112,6 +112,7 @@ body {
 }
 .data-div p:nth-of-type(3) {
   font-size: 15px;
+  margin-top: -3px;
 }
 .data-div svg {
   justify-self: end;
@@ -145,6 +146,56 @@ body {
 @media (min-width: 768px) {
   .period-div {
     justify-content: space-around;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    display: grid;
+    grid-template: repeat(2, auto) / 250px auto;
+    column-gap: 32px;
+    padding: 11rem 124px 0 9rem;
+  }
+  main {
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(3, 254px);
+    gap: 32px;
+  }
+  .card {
+    margin-top: 0;
+  }
+  .user-div {
+    flex-direction: column;
+    gap: 44px;
+    padding-bottom: 80px;
+  }
+  .user-div img {
+    width: 82px;
+    height: 82px;
+  }
+  .user-div__name-div p:nth-child(2) {
+    font-size: 40px;
+  }
+  .period-div {
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+  }
+  .data-div {
+    grid-template: repeat(2, auto) / repeat(2, auto);
+    border-radius: 16px 16px 12px 12px;
+    padding: 30px 32px;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 24px;
+  }
+  .data-div p:nth-of-type(2) {
+    font-size: 50px;
+    color: #f4f3fd;
+    grid-column: 1 / -1;
+  }
+  .data-div p:nth-of-type(3) {
+    font-size: 15px;
+    margin-top: -8px;
   }
 }
 
