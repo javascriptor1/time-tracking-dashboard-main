@@ -163,6 +163,7 @@ body {
     column-gap: 32px;
     padding: 11rem 124px 0 9rem;
   }
+
   main {
     display: grid;
     grid-template: repeat(2, auto) / repeat(3, 254px);
@@ -204,5 +205,10 @@ body {
   .data-div p:nth-of-type(3) {
     font-size: 15px;
     margin-top: -8px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1366px) {
+  .container {
+    margin-left: -34px;
   }
 }
