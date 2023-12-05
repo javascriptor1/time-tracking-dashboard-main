@@ -58,22 +58,42 @@ body {
   color: hsl(235, 45%, 61%);
   font-size: 16px;
   font-weight: bold;
+  cursor: pointer;
+}
+.period-div button:focus,
+.period-div button:hover {
+  color: #f4f3fd;
 }
 
-.work {
-  background-color: hsl(15, 100%, 70%);
-  padding-top: 38px;
+.card {
   border-radius: 16px;
   margin-top: 22px;
   position: relative;
-  overflow: hidden;
+}
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+.self-care {
+  background-color: hsl(43, 84%, 65%);
 }
 .data-div {
   background-color: hsl(235, 46%, 20%);
   color: hsl(236, 100%, 87%);
   display: grid;
   grid-template: repeat(2, auto) / repeat(2, auto);
-  border-radius: 12px;
+  border-radius: 16px 16px 12px 12px;
   padding: 30px 22px;
   justify-content: space-between;
   align-items: center;
@@ -97,10 +117,16 @@ body {
   justify-self: end;
   cursor: pointer;
 }
-.work img:first-child {
+.img-wrapper-div {
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+  height: 38px;
+}
+.img-wrapper-div img:nth-child(1) {
   position: absolute;
   top: -10px;
-  right: 18px;
+  right: 16px;
   z-index: 1;
 }
 
@@ -123,7 +149,3 @@ body {
 }
 
 /* troubleshooting css  */
-
-code {
-  display: none;
-}
