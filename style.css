@@ -60,7 +60,7 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-.period-div button:focus,
+
 .period-div button:hover {
   color: #f4f3fd;
 }
