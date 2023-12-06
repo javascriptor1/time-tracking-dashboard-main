@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
+    <script src="main.js" defer type="module"></script>
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
@@ -26,9 +26,9 @@
           </div>
         </div>
         <div class="period-div">
-          <button type="button">Daily</button>
-          <button type="button" class="active">Weekly</button>
-          <button type="button">Monthly</button>
+          <button type="button" data-index="daily">Daily</button>
+          <button type="button" data-index="weekly" class="active">Weekly</button>
+          <button type="button" data-index="monthly">Monthly</button>
         </div>
       </header>
       <main>

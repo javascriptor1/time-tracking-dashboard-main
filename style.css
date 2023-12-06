@@ -131,6 +131,9 @@ body {
   z-index: 1;
 }
 
+.period-div .active {
+  color: #f4f3fd;
+}
 /* ---------------- Active state --------------- */
 
 .data-div:hover {

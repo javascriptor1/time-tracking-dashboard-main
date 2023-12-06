@@ -1,6 +1,6 @@
 # Frontend Mentor - Time tracking dashboard solution
 
-This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,8 +16,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-
 ## Overview
 
 ### The challenge
@@ -31,8 +29,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpeg)
-
-
 
 ### Links
 
@@ -50,7 +46,6 @@ Users should be able to:
 - Mobile-first workflow
 - PixelPerfect chrome extension (https://www.welldonecode.com/perfectpixel/)
 
-
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
@@ -58,29 +53,21 @@ Users should be able to:
 - CSS grid for general layout of the project
 - working with json files to fetch data and update the DOM
 
-
-
 ### Continued development
 
 - Working with CSS grid
 - Fetch, JSON in Javascript
 
-
-
 ### Useful resources
 
-- [CSS grid free course](https://scrimba.com/learn/cssgrid/) 
-
-
+- [CSS grid free course](https://scrimba.com/learn/cssgrid/)
+- [JSON file import](https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/)
 
 ## Author
-
 
 - Frontend Mentor - [https://www.frontendmentor.io/profile/javascriptor1]
 - Twitter - [https://twitter.com/javascriptor1]
 
-
-
 ## Acknowledgments
 
-This work was inspired by the solution of Melvin (https://www.frontendmentor.io/profile/MelvinAguilar).
+This work was inspired by the solution of Melvin (https://www.frontendmentor.io/profile/MelvinAguilar)
