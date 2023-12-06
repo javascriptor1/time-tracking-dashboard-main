@@ -11,11 +11,11 @@ periodButtons[1].addEventListener("click", (event) => updateValue(event));
 periodButtons[2].addEventListener("click", (event) => updateValue(event));
 
 const updateValue = (event) => {
-    removeActiveClass();
+  removeActiveClass();
+  event.target.classList.add("active");
   let index = event.target.dataset.index;
   for (let i = 0; i < currentValue.length; i++) {
     currentValue[i].textContent = data[i].timeframes[index].current + "hrs";
-    console.log(currentValue[i].textContent);
     previousValue[i].textContent =
       "Last Week - " + data[i].timeframes[index].previous + "hrs";
   }
