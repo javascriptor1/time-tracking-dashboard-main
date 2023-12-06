@@ -7,6 +7,7 @@ const currentValue = document.querySelectorAll(".data-div p:nth-of-type(2)");
 const previousValue = document.querySelectorAll(".data-div p:nth-of-type(3)");
 
 periodButtons[0].addEventListener("click", (event) => updateValue(event));
+periodButtons[0].addEventListener("touchstart", (event) => updateValue(event));
 periodButtons[1].addEventListener("click", (event) => updateValue(event));
 periodButtons[2].addEventListener("click", (event) => updateValue(event));
 
