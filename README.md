@@ -37,7 +37,7 @@ Users should be able to:
 
 ## My process
 
-Hello everyone 👋, I'm Mohammed and this is my solution for this nice challenge.
+Hello everyone 👋, I'm Mohammed and this is my solution to this nice challenge.
 
 Starting from this challenge, I decided to stop using flexbox for general layout of all future challenges. Instead , I will use CSS grid as I need to practice and do more exercises on CSS grid to improve.
 
