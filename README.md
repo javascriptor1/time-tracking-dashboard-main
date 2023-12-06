@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/javascriptor1/social-media-dashboard-with-theme-switcher-master]
-- Live Site URL: [https://time-tracking-dashboard-mainn.netlify.app/]
+- Solution URL:[https://github.com/javascriptor1/social-media-dashboard-with-theme-switcher-master]
+- Live Site URL:[https://time-tracking-dashboard-mainn.netlify.app/]
 
 ## My process
 
@@ -44,8 +44,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [PixelPerfect] chrome extension (https://www.welldonecode.com/perfectpixel/)
-- [Animate.css] (https://animate.style/)
+- [PixelPerfect]chrome extension (https://www.welldonecode.com/perfectpixel/)
+- [Animate.css](https://animate.style/)
 
 ### What I learned
 
@@ -65,8 +65,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [https://www.frontendmentor.io/profile/javascriptor1]
-- Twitter - [https://twitter.com/javascriptor1]
+- Frontend Mentor -[https://www.frontendmentor.io/profile/javascriptor1]
+- Twitter -[https://twitter.com/javascriptor1]
 
 ## Acknowledgments
 
