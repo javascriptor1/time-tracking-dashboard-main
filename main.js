@@ -12,13 +12,13 @@ periodButtonsDiv.addEventListener("click", (event) => updateValue(event));
 const updateValue = (event) => {
   if (event.target.tagName === "BUTTON") {
     removeActiveClass();
-    event.target.classList.add("active");
     let index = event.target.dataset.index;
     for (let i = 0; i < currentValue.length; i++) {
       currentValue[i].textContent = data[i].timeframes[index].current + "hrs";
       previousValue[i].textContent =
-        "Last Week - " + data[i].timeframes[index].previous + "hrs";
+      "Last Week - " + data[i].timeframes[index].previous + "hrs";
     }
+    event.target.classList.add("active");
   }
 };
 
