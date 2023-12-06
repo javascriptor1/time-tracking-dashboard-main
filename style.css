@@ -146,7 +146,7 @@ body {
 
 /*  --------------- media quires ---------------  */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .period-div {
     justify-content: space-around;
   }
