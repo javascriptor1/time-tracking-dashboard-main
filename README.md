@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:[https://github.com/javascriptor1/social-media-dashboard-with-theme-switcher-master]
+- Solution URL:[https://github.com/javascriptor1/time-tracking-dashboard-main/]
 - Live Site URL:[https://time-tracking-dashboard-mainn.netlify.app/]
 
 ## My process
@@ -44,7 +44,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [PixelPerfect]chrome extension (https://www.welldonecode.com/perfectpixel/)
+- [PixelPerfect](https://www.welldonecode.com/perfectpixel/) chrome extension
 - [Animate.css](https://animate.style/)
 
 ### What I learned
