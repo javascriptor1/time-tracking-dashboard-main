@@ -44,19 +44,19 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- PixelPerfect chrome extension (https://www.welldonecode.com/perfectpixel/)
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [PixelPerfect] chrome extension (https://www.welldonecode.com/perfectpixel/)
+- [Animate.css] (https://animate.style/)
 
 ### What I learned
 
 - CSS grid for general layout of the project
-- working with json files to fetch data and update the DOM
+- working with json files to import data and update the DOM
 
 ### Continued development
 
 - Working with CSS grid
 - Fetch, JSON in Javascript
+- Pass arguments for callback functions with addEventlistner
 
 ### Useful resources
 
@@ -70,4 +70,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-This work was inspired by the solution of Melvin (https://www.frontendmentor.io/profile/MelvinAguilar)
+This work was inspired by the solution of [Melvin](https://www.frontendmentor.io/profile/MelvinAguilar)
