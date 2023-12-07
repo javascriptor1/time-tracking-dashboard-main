@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
   periodButtonsDiv.addEventListener("click", (event) => updateValue(event));
 
   const updateValue = (event) => {
-    if (event.target.tagName === "BUTTON") {
+    if (event.target.nodeName === "BUTTON") {
       removeActiveClass();
       let index = event.target.dataset.index;
       for (let i = 0; i < currentValue.length; i++) {
